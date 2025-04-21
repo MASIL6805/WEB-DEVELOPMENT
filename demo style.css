@@ -1,0 +1,12 @@
+div{
+    background-color: bisque;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: blueviolet;
+}

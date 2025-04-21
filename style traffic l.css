@@ -1,0 +1,21 @@
+#bigbox{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+#smallcircle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 40px;
+}
+.a1{
+    background-color: red;
+}
+.a2{
+    background-color: yellow;
+}
+.a3{
+    background-color: green;
+}

@@ -1,0 +1,41 @@
+diV{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    
+}
+#STATIC{
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#RELATIVE{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#ABSOLUTE{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(132, 30, 30);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#FIXED{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(201, 21, 114);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

@@ -1,0 +1,55 @@
+#face{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+#eyes{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50px;
+    border: 2px solid black;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+#two{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50px;
+    border: 2px solid black;
+    position: absolute;
+    top: 130px;
+    left: 120px;
+}
+#lips{
+    height: 30px;
+    width: 65px;
+    background-color: red;
+    border-radius:0 0 50px 50px;
+    border: 2px solid black;
+    position: absolute;
+    top: 210px;
+    left: 75px;
+    animation: smile 4s ease-in 5s alternate infinite;
+}
+@keyframes smile {
+    0%{
+      border-radius: 0 0 10px 10px;
+    }
+    25%{
+      border-radius: 5px 5px 20px 20px ;
+    }
+    50%{
+      border-radius: 8px 8px 30px 30px;
+    }
+    75%{
+      border-radius: 10px 10px 40px 40px;
+    }
+    100%{
+      border-radius: 0px 0px 50px 50px;
+    }
+}

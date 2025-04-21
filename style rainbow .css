@@ -1,0 +1,28 @@
+.container{
+    height: 300PX;
+    width: 80%;
+    background-color: azure;
+    border: 4PX dashed black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:right ;
+    flex-wrap: wrap-reverse;
+
+}
+#ind{
+    align-self: flex-end;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    /* min-width: 400px; */
+    flex-shrink: 4;
+}
+h1{
+    text-align: center;
+}
+.container div{
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+}

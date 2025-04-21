@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    background-color: blanchedalmond;
+}
+h3{
+    color: rgb(154, 134, 0);
+    background-color: azure;
+}
+botton{
+    color: antiquewhite;
+    background-color: blue;
+}
+p{
+    color: #43F69D;
+    background-color: #FE05FC;
+}
+H4{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: normal;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}

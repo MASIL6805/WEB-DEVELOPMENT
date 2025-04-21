@@ -1,0 +1,14 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media(min-width:400px)and(max-width:800px){
+    h1{
+        background-color: wheat;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+    }
+}

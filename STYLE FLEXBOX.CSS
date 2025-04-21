@@ -1,0 +1,42 @@
+#BIG{
+    height: 600px;
+    width: 600px;
+    border: 4PX solid gray;
+    background-color: wheat;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.SMALL{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: grey;
+    font-size: 50px;
+    text-align: center;
+}
+#NAVBAR{
+    height: 50px;
+    width: 900px;
+    background-color: aquamarine;
+    display: flex;
+    border: 4px solid black;
+    border-radius: 10px;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
+.OPTIONS{
+     height: 50px;
+    width: 80px;
+    font-size: 24px;
+    /* border-radius: 10px; */
+    margin-left: 20px;
+    line-height: 50px;
+}

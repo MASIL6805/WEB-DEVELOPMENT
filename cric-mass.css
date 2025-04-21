@@ -1,0 +1,192 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    padding: 0.5rem;
+    background: url(DALL·E\ 2024-09-18\ 23.20.32\ -\ A\ cricketer\ playing\ a\ powerful\ shot\ in\ a\ cricket\ match\,\ captured\ mid-action\ with\ the\ bat\ extended\ and\ the\ ball\ flying.\ The\ scene\ is\ set\ in\ a\ stadium\ b.webp);
+    height: 100vh;
+    background-size:100% 100%;
+    background-position: cover;
+    width: 100%;
+}
+.TOP_MENU{
+    position: fixed;
+    top: 0px;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+}
+.navoptions{
+    margin: 10px;
+}
+    .WELCOME{
+        position: fixed;
+        top: 150px;
+        left: 10px;
+        font-size: xx-large;
+        font-weight: 1000;
+        line-height: 0%;
+        /* opacity: O;
+        animation: ANIMATIONCOLOUR 2s ease-in 2s alternate step-start; */
+    }
+
+    /* @keyframes ANIMATIONCOLOUR {
+        0%{
+          opacity: 0;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+          opacity: 1;
+        }
+    } */
+
+    .logo{
+        margin-top:10px;
+    }
+    .logo_img{
+        border: 2px solid black;
+        border-radius: 40px;
+        box-shadow: 2px 2px 50px black;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .navoptions:hover{
+        color: blueviolet;
+    }
+    a:hover{
+        color: blueviolet;
+        text-decoration: underline blue;
+    }
+    .btn_one{
+        position: fixed;
+        left: 1200px;
+        margin: 30px;
+        margin-top: 20PX;
+        transition: all 0.3s linear;
+    }
+    .btn_one p{
+        background-color: rgb(60, 57, 57);
+        color: white;
+        border: 3px solid black;
+        border-radius: 40px;
+        padding: 10px;
+        box-shadow: 4px 4px 4px black ;
+        cursor: pointer;
+    }
+    .LIVE{
+        background-color:rgb(60, 57, 57) ;
+        position: fixed;
+        bottom: 40px;
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 30px;
+        padding-top: 10px;
+        line-height: 10px;
+        box-shadow: 2px 2px 50px black;
+    }
+    .scores{
+        justify-content:space-between;
+        align-items: center;
+        display: flex;
+    }
+    .team_img{
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 50px black;
+    }
+    .matches{
+        position: fixed;
+        RIGHT: -350px;
+        height: 100vh;
+        width: 300px;
+        background-color:black;
+        box-shadow: 0 0 4px rgb(255, 255, 255,0.5);
+        transition: all 0.3s linear;
+        overflow: auto;
+    }
+    /* .matches::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        visibility: hidden;
+    }
+      .matches:active::-webkit-scrollbar-thumb,
+      .matches:focus::-webkit-scrollbar-thumb,
+      .matches:hover::-webkit-scrollbar-thumb {
+          visibility: visible;
+      }
+      .matches::-webkit-scrollbar {
+          width: 4px;
+          height: 4px;
+      } */
+    /* .fixtures{
+        position: fixed;
+        RIGHT: -350px;
+        height: 100vh;
+        width: 300px;
+        background-color:black;
+        box-shadow: 0 0 4px rgb(255, 255, 255,0.5);
+        transition: all 0.3s linear;
+        overflow: scroll;
+    } */
+    .UPCOMING{
+        position: fixed;
+        top: 10px;
+        padding: 30px;
+        padding-top: 2px;
+        line-height: 10px;
+        background-color:rgb(60, 57, 57) ;
+        box-shadow: 2px 2px 50px black;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .UPCOMING_1{
+        position: fixed;
+        top: 240px;
+        padding: 30px;
+        padding-top: 2px;
+        line-height: 10px;
+        background-color:rgb(60, 57, 57) ;
+        box-shadow: 2px 2px 50px black;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .UPCOMING_2{
+        position: fixed;
+        top: 470px;
+        padding: 30px;
+        padding-top: 2px;
+        line-height: 2px;
+        background-color:rgb(60, 57, 57) ;
+        box-shadow: 2px 2px 50px black;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .UPCOMING_3{
+        position: fixed;
+        top: 600px;;
+        padding: 30px;
+        padding-top: 2px;
+        line-height: 2px;
+        background-color:rgb(60, 57, 57) ;
+        box-shadow: 2px 2px 50px black;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+     #check{
+        display: none;
+    } 
+    #check:checked ~ .matches{
+        right: 0px;
+    }
+    #check:checked ~ .fixtures{
+        right: 0px;
+    }
+    

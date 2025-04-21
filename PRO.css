@@ -1,0 +1,557 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: white;
+    color: white;
+    overflow: auto;
+}
+.welcome{
+    width: 100%;
+    height: 700px;
+    background: url(kaba3.jpg);
+    background-size:100% 100%;
+    background-position: cover;
+}
+.intro{
+    margin-left:300px;
+    margin-top: 0px;
+    line-height: 100px;
+    font-size: x-large;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(209, 206, 206, 0.788);
+    display: flex;  
+
+}
+a{
+    text-decoration: none;
+}
+.navoptions{
+    display: inline;
+    margin-top: 35px;
+    /* top: 90px; */
+    position: sticky;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.logo{
+    margin-top:10px;
+    margin-left: 20px;
+    margin-right: 50px;
+} 
+.logo_img{
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 2px 2px 50px rgb(153, 123, 123);
+    display: block;
+    top: 30px;
+}
+button{
+    border-radius: 5PX;
+    border: 0px solid black;
+    /* box-shadow: 2px 2px 10px rgb(153, 123, 123); */
+    margin-left: 20PX;
+    background-color: powderblue;
+    color: blueviolet;
+}
+#search{
+    background-color: powderblue;
+    border: 0;
+    height: 25px;
+    width: 290px;
+    color: black;
+}
+/* #navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+   
+} */
+.mininav{
+    width: 100%;
+    height: 23px;
+    display: flex;
+    font-size: smaller;
+}
+.logos{
+    margin-top: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border:0px solid black ;
+    border-radius: 20px;
+}
+.locat{
+    margin-top: 3px;
+    /* margin-right: 4px;
+    margin-left: 4px; */
+    position: absolute;
+    left: 850px;
+}
+.address{
+    margin-top: 3px;
+    position: absolute;
+    left: 870px;
+}
+.poopup{
+   width: 1100px;
+   height: 260px;
+   background-color: white;
+   border:0px solid black ;
+   box-shadow: 2px 2px 10px rgb(153, 123, 123);
+   position: absolute;
+   left: 140px;
+   top: 650px;
+   border-radius: 20px;
+   display: flex;
+}
+.BUTTON1{
+    border-radius: 5PX;
+    border: 2px solid black;
+    margin-left: 20PX;
+    background-color: white;
+    color:  black;
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    display: flex;
+    height: 40px;
+}
+.BUTTON2{
+    border-radius: 5PX;
+    border: 2px solid black;
+    margin-left: 20PX;
+    background-color: white;
+    color:  black;
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    display: flex;
+    height: 40px;
+}
+.BUTTON3{
+    border-radius: 5PX;
+    border: 2px solid black;
+    margin-left: 20PX;
+    background-color: white;
+    color:  black;
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    display: flex;
+    height: 40px;
+}
+.BUTTON4{
+    border-radius: 5PX;
+    border: 2px solid black;
+    margin-left: 20PX;
+    background-color: white;
+    color:  black;
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    display: flex;
+    height: 40px;
+}
+/* .button img{
+    padding-top: 10px; 
+} */
+.ops{
+    margin-top: 0px;
+}
+.PLAN{
+    color: black;
+    font-weight: 500;
+    position: absolute;
+    top: 17px;
+    right: 40px;
+}
+.departure{
+    color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    line-height: 10px;
+    border:0px solid black ;
+    box-shadow: 1px 1px 6px rgb(153, 123, 123);
+    padding: 10px;
+    border-radius: 10px;
+}
+.add{
+    font-size: 12px;
+    font-weight: 500;
+}
+.arrival{
+    color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    line-height: 10px;
+    border:0px solid black ;
+    box-shadow: 1px 1px 6px rgb(153, 123, 123);
+    padding: 10px;
+    border-radius: 10px;
+}
+.departure-time{
+    color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    line-height: 10px;
+    border:0px solid black ;
+    box-shadow: 1px 1px 6px rgb(153, 123, 123);
+    padding: 10px;
+    border-radius: 10px;
+}
+.arrival-time{
+    color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    line-height: 10px;
+    border:0px solid black ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgb(153, 123, 123);
+    padding: 10px;
+}
+.swap{
+    position: absolute;
+    top: 120px;
+    left: 265px;
+}
+.date{
+    position: absolute;
+    top: 130px;
+    right: 380px;
+}
+.date2{
+    position: absolute;
+    top: 130px;
+    right: 130px;
+}
+.swap2{
+    position: absolute;
+    top: 120px;
+    right:255px;
+}
+.BUTTON5{
+    border-radius: 5PX;
+    border: 0px solid black;
+    color: white;
+    background-color: red;
+    font-size: large;
+     margin-top: 25PX;
+    padding: 9px;
+    height: 40px;
+    position: absolute;
+    top: 185px;
+    right: 500px;
+}
+.info{
+    /* width: 100%; */
+    height: 350px;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 20px;
+    display: flex;
+}
+.line{
+    width:50%;
+    height: 30%;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    /* position: absolute; */
+    margin: 0 auto;
+}
+.small{
+    font-size: 10px;
+}
+.images{
+    display: flex;
+}
+.img1{
+    margin-top: 10px;
+    margin-left: 20px;
+    border:0px solid black ;
+    border-radius: 15px;
+}
+.img2{
+    margin-top: 10px;
+    margin-left: 20px;
+    border:0px solid black ;
+    border-radius: 15px;
+    
+}
+.img3{
+    margin-top: 10px;
+    margin-left: 20px;
+    border:0px solid black ;
+    border-radius: 15px;
+}
+.card1{
+    position: relative;
+}
+.text{
+    /* width: 100%; */
+    font-size: 16px;
+    line-height: 1px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    font-weight: 600;
+}
+.card2{
+    position: relative;
+}
+.text2{
+    /* width: 100%; */
+    font-size: 16px;
+    line-height: 1px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    font-weight: 600;
+}
+.card3{
+    position: relative;
+}
+.text3{
+    font-size: 16px;
+    line-height: 1px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    font-weight: 600;
+}
+.sites{
+    color:rgb(186, 65, 85);
+    font-weight: 500;
+    line-height: 0%;
+}
+.cities{
+    height: 350px;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    padding: 40PX;
+}
+.cards1{
+    margin-left: 70px;
+    position: relative;
+}
+.cards2{
+    position: relative;
+}
+.cards3{
+    position: relative;
+}.cards4{
+    position: relative;
+}
+.intord{
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 0%;
+}
+.pakages{
+    position: absolute;
+    left: 500px;
+}
+.op1{
+    border-radius: 2PX;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(186, 65, 85);
+    /* box-shadow: 1px 1px 6px rgb(153, 123, 123); */
+    font-size: small;
+    padding: 8px;
+}
+.op2{
+    color: black;
+    border:1px solid black ;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 6px rgb(153, 123, 123); */
+    padding: 8px; 
+    font-size: small;
+    background-color: white;
+}
+.op3{
+    color: black;
+    border:1px solid black ;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 6px rgb(153, 123, 123); */
+    padding: 8px; 
+    font-size: small;
+    background-color: white;
+}
+.op4{
+    color: black;
+    border:1px solid black ;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 6px rgb(153, 123, 123); */
+    padding: 8px; 
+    font-size: small;
+    background-color: white;
+}
+.hotels{
+    display: flex;
+    margin-left: 70px;
+    /* padding: 60px; */
+    margin-top: 40px;
+}
+.hotcard{
+    height: 360px;
+    width: 260px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+.hotelinfo{
+    color: black;
+    line-height: 6px;
+    padding: 10px;
+}
+.hotelN{
+    font-weight: 800;    
+}
+.hotelC{
+    opacity: 0.8;
+}
+.rooms{
+    background-color: white;
+    display: flex;
+}
+.rate{
+    height: 30px;
+    width: 40px;
+    color: black;
+    margin-top:7px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 4px black; */
+    background-color: white;
+    margin-left: 2px;
+}
+.out{
+    margin-top: 5px;
+}
+.details{
+    /* height: 10px;
+    width: 150px; */
+    /* background-color: white; */
+    color: black;
+    font-size: smaller;
+    margin-top: 7px;
+}
+.price{
+    color: black;
+    font-size: 12px;
+}
+/* .details2{
+
+    background-color: white;
+} */
+.im{
+    border-radius: 5px;
+}
+.offers{
+    display: flex;
+    margin-left: 75px;
+}
+.city1{
+    height: 400px;
+    width: 550px;
+    border: 0px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+.ims{
+    border-radius: 10px;
+}
+.city2{
+    height: 400px;
+    width: 300px;
+    border: 0px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+.city3{
+    height: 400px;
+    width: 300px;
+    border: 0px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+.offer1{
+    position: absolute;
+    color:white;
+    top: 170px;
+    padding: 20px;
+    line-height: 20px;
+}
+.h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.BUTTON6{
+    border-radius: 5PX;
+    border: 0px solid black;
+    color:white;
+    background-color:rgb(186, 65, 85);
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    height: 40px;
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+.BUTTON7{
+    border-radius: 5PX;
+    border: 0px solid black;
+    color:white;
+    background-color:rgb(186, 65, 85);
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    height: 40px;
+    position: absolute;
+    top: 330px;
+    left: 55px;
+}
+.BUTTON8{
+    border-radius: 5PX;
+    border: 0px solid black;
+    color:white;
+    background-color:rgb(186, 65, 85);
+    font-size: large;
+    margin-top: 25PX;
+    padding: 9px;
+    height: 40px;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+}
